@@ -1,0 +1,34 @@
+div#pierwszy_nochovna
+{
+    width: 784pt;
+    background-color: rgb(124, 194, 217);
+    border: 5px solid rgb(2, 2, 45);
+    border-top-right-radius: 17mm;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#drugi_nochovna
+{
+    width: 984pt;
+    background-color: rgb(213, 109, 187);
+    border: 3px solid rgb(0, 0, 0);
+    border-top-right-radius: 15mm;
+
+}
+div#trzeci_nochovna
+{
+    width: 1184pt;
+    background-color: rgb(144, 227, 146);
+    border: 7px solid rgb(67, 13, 65);
+    border-top-right-radius: 19mm;
+    margin-left: auto;
+    margin-right: auto;
+}
+p:first-child {
+    font-size: 7mm;
+    font-style: italic;
+  }
+  
+  p {
+    font-size: 11pt;
+  }

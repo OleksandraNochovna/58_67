@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>nochovna</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <table border="1" bordercolor="black" align="left" width="90%">
+<tr>
+    <th colspan="2">
+        <b>Zaokrąglenie narożników obszarów bloków np. DIV</b>
+    </th>
+</tr>
+<tr>
+    <th>Zaokrąglenie górnego-lewego 
+        narożnika:
+        </th>
+        <th>selektor { border-top-left-radius: zaokrąglenie }
+        </th>
+</tr>
+<tr><th>Zaokrąglenie górnego-prawego 
+    narożnika:</th>
+<th>selektor { border-top-right-radius: zaokrąglenie }
+</th></tr>
+<tr><th>Zaokrąglenie dolnego-prawego 
+    narożnika:</th>
+<th>selektor { border-bottom-right-radius: zaokrąglenie }</th></tr>
+<tr><th>Zaokrąglenie dolnego-lewego 
+    narożnika:
+    </th><th>selektor { border-bottom-left-radius: zaokrąglenie }</th></tr>
+
+    </table><br><br><br><br><br><br>
+    <p><u>Zastosowanie:
+    </u></p>
+    <p>We wszystkich przypadkach selektorem może być dowolny znacznik, np.</p>
+<ul>
+    <li>p – akapit</li>
+    <li>h1 –nagłówek</li>
+    <li>div –blok</li>
+</ul>
+<p>Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w 
+    procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj 
+    podanie:
+    </p>
+    <ul>
+        <li>jednej wartości - zaokrąglenie symetryczne</li>
+        <li>dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a 
+            druga - pionowy</li>
+    </ul>
+    <p>Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę 
+        strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone 
+        narożniki. Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie. </p>
+
+        <p>Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli 
+            promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz.</p>
+<p>Przykład:</p>
+<table border="1" bordercolor="black" align="left" width="90%">
+    <tr><th>border-top-right-radius: 10px</th></tr>
+</table ><br><br>
+<p>W definicja CSS bloku DIV należy wpisać:</p>
+<table border="1" bordercolor="black"  width="90%">
+    <tr><th>margin-left: auto;<br>
+        margin-right: auto;</th></tr>
+</table >
+    </body>
+</html>

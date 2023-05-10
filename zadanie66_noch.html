@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>nochovna</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1><u>Pseudoelementy</u> (selektory pseudoelementów)</h1>
+<h2>Pseudoelementem :first-line, który obejmuje formatowaniem całą 
+    pierwszą linię.</h2>
+    <table border="1" bordercolor="black" align="left" width="90%">
+        <tr>
+            <th align="left">
+                p <br>
+                &nbsp &nbsp{<br>
+                    &nbsp &nbspcolor:navy;<br>
+                    &nbsp &nbspfont-size:12pt;<br>
+                    &nbsp &nbsp }<br> <br>
+p:first-line<br>
+&nbsp &nbsp{<br>
+    &nbsp &nbspcolor:red;<br>
+    &nbsp &nbspfont-size:20pt;<br>
+    &nbsp &nbspfont-weight:bold;<br>
+    &nbsp &nbsp }<br>  
+
+            </th>
+        </tr>
+    </table> 
+   <h2><b>pseudoelementy: :after oraz :before.</b></h2>
+   <p>Poza :first-letter oraz :first-line w specyfikacji umieszczono jeszcze dwa inne
+    <b>pseudoelementy: :after oraz :before.</b> Oba elementy służą do umieszczania tekstu przed i za
+    formatowanym elementem strony. Poniżej zamieszczam odpowiedni przykład.
+    </p>
+    <table border="1" bordercolor="black" align="left" width="90%">
+        <tr>
+            <th align="left">
+                p:before<br>
+                &nbsp &nbsp{<br>
+                    &nbsp &nbspcontent:"TO SĄ ĆWICZENIA";<br>
+                    &nbsp &nbspfont-size:15pt;<br>
+                    &nbsp &nbspfont-style:italic;<br>
+                    &nbsp &nbspfont-weight:bold;<br>
+                    &nbsp &nbsp}<br>
+               p:after<br>
+               &nbsp &nbsp{<br>
+                &nbsp &nbspcontent:"AUTOR Król Lew";<br>
+                &nbsp &nbspfont-size:15pt;<br>
+                &nbsp &nbspfont-style:italic;<br>
+                &nbsp &nbspfont-weight:bold;<br>
+                &nbsp &nbsp}<br>
+            </th>
+        </tr>
+    </table>
+<h2>Pseudoelement :first-letter</h2>
+<p>pozwala na formatowanie pierwszej litery w bloku
+    tekstu.
+    Przykładowy arkusz spowoduje powiększenie pierwszej litery do wielkości 100 punktów i
+    nadanie jej koloru czerwonego.</p>
+    <table border="1" bordercolor="black" align="left" width="90%">
+        <tr>
+            <th align="left">
+                H1<br>
+                &nbsp &nbsp {<br>
+                    &nbsp &nbspcolor:navy;<br>
+                    &nbsp &nbsp font-size:30pt;<br>
+                    &nbsp &nbsp}<br>
+               H1:first-letter<br>
+               &nbsp &nbsp {<br>
+                &nbsp &nbspcolor:red;<br>
+                &nbsp &nbspfont-size:100pt;<br>
+                &nbsp &nbsp}<br>
+               
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
